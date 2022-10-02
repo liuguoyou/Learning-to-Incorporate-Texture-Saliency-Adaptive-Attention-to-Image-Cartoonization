@@ -11,4 +11,5 @@ Numpy <br>
 Opencv-python <br>
 Pillow (PIL) <br>
 # Required files and pretrained models
-This model requires VGG19 model file for both training and inference. It can be downloaded from <https://drive.google.com/drive/folders/1LrQi-oJMqmE1--VjU8r03OEJd6XM4thc>. Put the downloaded vgg19.npy file into **vgg19_weight** directory for use.
+This model requires VGG19 model file for both training and inference. The link to download VGG19 file is: <br> <https://drive.google.com/drive/folders/1LrQi-oJMqmE1--VjU8r03OEJd6XM4thc> <br>
+Put the downloaded vgg19.npy file into **vgg19_weight** directory for training or inference.
