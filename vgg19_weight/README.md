@@ -1,1 +1,1 @@
-put the vgg19.npy file into this directory.
+download and put vgg19.npy file into this directory for training and inference.
