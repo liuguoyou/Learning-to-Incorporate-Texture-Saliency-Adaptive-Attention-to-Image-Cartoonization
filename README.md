@@ -10,6 +10,7 @@ Tensorflow 1.X <br>
 Numpy <br>
 Opencv-python <br>
 Pillow (PIL) <br>
+
 # Required files and pretrained models
 ## 1. VGG19 model file ##
 This model requires VGG19 model file for both training and inference (testing). The link to download VGG19 file is: <br> <https://drive.google.com/drive/folders/1LrQi-oJMqmE1--VjU8r03OEJd6XM4thc> <br>
@@ -23,3 +24,10 @@ The pretrained models of different cartoon styles including "The Wind Rises" (TW
 | CSC  | AnimeStyle_CSC_g300.0_d300.0_con1.5_color15.0_tv1.0 |
 
 To use these pretrained models for direct inference (testing), put these checkpoint folders into **checkpoint** directory.
+
+# How to train or test models #
+The training or testing of the model is determined by the parsing argument **--phase** in main.py:
+|  Phase   | Command  |
+|  -------------  | -------------  |
+| Train  | python main.py --phase train |
+| Test  | python main.py --phase test | 
