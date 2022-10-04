@@ -49,7 +49,8 @@ Some cartoonization results of "The Wind Rises" (TWR) style are displayed below.
 
 # Citation #
 Please use the following BibTex to cite our paper: <br><br>
-@inproceedings{gao2022learning, <br>
+
+>@inproceedings{gao2022learning, <br>
 &nbsp;&nbsp; title={Learning to Incorporate Texture Saliency Adaptive Attention to Image Cartoonization}, <br>
 &nbsp;&nbsp; author={Gao, Xiang and Zhang, Yuqi and Tian, Yingjie}, <br>
 &nbsp;&nbsp; booktitle={International Conference on Machine Learning}, <br>
