@@ -1,6 +1,20 @@
 # Learning-to-Incorporate-Texture-Saliency-Adaptive-Attention-to-Image-Cartoonization
 Code of paper "Learning to Incorporate Texture Saliency Adaptive Attention to Image Cartoonization", ICML 2022.
 
+# Citation #
+<pre>
+<code>
+@inproceedings{gao2022learning,
+  title={Learning to Incorporate Texture Saliency Adaptive Attention to Image Cartoonization},
+  author={Gao, Xiang and Zhang, Yuqi and Tian, Yingjie},
+  booktitle={International Conference on Machine Learning},
+  pages={7183--7207},
+  year={2022},
+  organization={PMLR}
+}
+</code>
+</pre>
+
 # Introduction
 This is the code of the image cartoonization method proposed in paper "Learning to Incorporate Texture Saliency Adaptive Attention to Image Cartoonization" <https://proceedings.mlr.press/v162/gao22k/gao22k.pdf>. Below is the overall model architecture, please refer to the paper for more technical details.
 <image src="images/architecture.jpg">
@@ -46,18 +60,3 @@ Some cartoonization results of "The Wind Rises" (TWR) style are displayed below.
 <center>
     <img src="images/twr_results.png">
 </center>
-
-# Citation #
-Please use the following BibTex to cite our paper: <br>
-<pre>
-<code>
-@inproceedings{gao2022learning,
-  title={Learning to Incorporate Texture Saliency Adaptive Attention to Image Cartoonization},
-  author={Gao, Xiang and Zhang, Yuqi and Tian, Yingjie},
-  booktitle={International Conference on Machine Learning},
-  pages={7183--7207},
-  year={2022},
-  organization={PMLR}
-}
-</code>
-</pre>
