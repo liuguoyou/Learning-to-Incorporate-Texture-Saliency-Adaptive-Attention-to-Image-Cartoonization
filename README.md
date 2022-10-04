@@ -32,4 +32,13 @@ The training or testing of the model is determined by the parsing argument **--p
 | Train  | python main.py --phase train |
 | Test  | python main.py --phase test | 
 
-At training phase, the model checkpoint name is composed of model hyperparameters passed in via _argparse_. At testing phase, you should also pass in the same model hyperparameters as training phase to load the correct model. Some important model hyperparameters are listed below: <br>
+At training phase, the model checkpoint name is composed of model hyperparameters passed in via _argparse_. At testing phase, you should also pass in the same model hyperparameters as training phase to load the correct model. Some important model hyperparameters of different cartoon styles are listed below: <br>
+|  Hyperparameters | description | TWR | DB | CSC |
+|  --------------  | ------------|-----|----|-----|
+| g_adv_weight     | weight of adversarial loss for generator | 300.0 | 300.0 | 300.0 |
+| d_adv_weight     | weight of adversarial loss for discriminator | 300.0 | 300.0 | 300.0 |
+| con_weight       | weight of content loss | 1.5 | 2.5 | 1.5 |
+| color_weight     | weight of color reconstruction loss | 15.0 | 15.0 | 15.0 |
+| tv_weight        | weight of total variation loss | 1.0 | 1.5 | 1.0 | 
+
+# Some cartoonization results #
