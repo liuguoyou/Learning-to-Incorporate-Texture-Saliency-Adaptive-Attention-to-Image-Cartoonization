@@ -31,4 +31,5 @@ The training or testing of the model is determined by the parsing argument **--p
 |  -------------  | -------------  |
 | Train  | python main.py --phase train |
 | Test  | python main.py --phase test | 
+
 At training phase, the model checkpoint name is composed of model hyperparameters passed in via _argparse_. At testing phase, you should also pass in the same model hyperparameters as training phase to load the correct model. Some important model hyperparameters are listed below: <br>
