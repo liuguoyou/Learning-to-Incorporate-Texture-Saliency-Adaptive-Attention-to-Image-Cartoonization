@@ -57,6 +57,8 @@ At training phase, the model checkpoint name is composed of model hyperparameter
 
 # Results display #
 Some cartoonization results of "The Wind Rises" (TWR) style are displayed below. For more cartoonization results or results of other styles (e.g., DB and CSC), please refer to our paper or try our pretrained models.
-<center>
-    <img src="images/twr_results.png">
-</center>
+<!-- <center>
+    <image src="images/twr_results.pdf" />
+</center> -->
+<!-- <embed src="images/twr_results.pdf" type="application/pdf"> -->
+<object data="images/twr_results.pdf" type="application/pdf" width="100%"></object>
