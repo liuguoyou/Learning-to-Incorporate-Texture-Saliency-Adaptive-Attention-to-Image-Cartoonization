@@ -56,7 +56,7 @@ At training phase, the model checkpoint name is composed of model hyperparameter
 | tv_weight        | weight of total variation loss | 1.0 | 1.5 | 1.0 | 
 
 # Results display #
-Some cartoonization results of "The Wind Rises" (TWR) style are displayed below. For more cartoonization results or results of other styles (e.g., DB and CSC), please refer to our paper or try our pretrained models.
+Some cartoonization results of "The Wind Rises" (TWR) style are displayed below. The pictures are compressed for storage convenience, please refer to our paper or try our pretrained models for clearer high-resolution cartoonized results or results of other styles (e.g., DB and CSC). 
 <center>
     <image src="images/twr_results.png" />
 </center>
